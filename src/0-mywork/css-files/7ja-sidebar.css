@@ -1,0 +1,20 @@
+
+.parent-of-sidebar {
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+}
+
+
+.sidebar {
+  width: 20%;
+  background-color: #3d4a59;
+  border-radius: 8px;
+  padding-bottom: 22px;
+}
+.sidebar a {
+  color: #fff;
+}
+.left-side {
+  width: 80%;
+}

@@ -1,0 +1,163 @@
+doctype html
+html(lang="ar" dir="rtl")
+  head
+    include 0-mywork/comp/inhead
+    title home
+    style.   
+      .flex {
+        display: flex;
+      }
+      .left-sec,
+      .right-sec {
+        width: 50%;
+        text-align: center;
+        margin-bottom: 2rem;
+        margin-top: 2rem;
+      }
+
+      .name {
+        margin: 1.1rem auto;
+        height: 1.7rem;
+        text-align: center;
+        border: none;
+        border-radius: 8px;
+        display: block;
+      }
+
+      .pic {
+        border-radius: 50%;
+        box-shadow: 0 2px 8px 0 rgb(0 0 0 / 25%);
+        height: 10rem;
+        border-right: 2px solid #ff8a00;
+        border-left: 2px solid #ff8a00;
+        border-bottom: 2px solid #e52e71;
+        border-top: 2px solid #e52e71;
+      }
+
+      .goal {
+        font-size: 2rem;
+      }
+
+      .left-sec p {
+        margin-bottom: 1rem;
+      }
+
+  body             
+    include 0-mywork/comp/header 
+
+
+
+    section.card.mttt
+      h1.box.mtt أنا مين ؟
+      .flex
+
+        .right-sec
+          img.pic(src="./pic/me.png" alt="")
+          img.name(src="./pic/ali.png" alt="")
+          p Have no title, just Ali Hassan 
+        .left-sec 
+          h3.goal.mttt هدفى
+          p.mtt هو إِثراء المُحتوى العربى بمحتوى تعليمى مُتميز  <br >  عن طريق التعليم القائم على المشاريع
+          a.mybtn(href="wwwwwww") Facebook
+          a.mybtn(href="wwwwwww")  YouTube
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    section.card.mttt  
+      h1.box.mtt التحديثات 
+      h2.center.mttt: span.underline اخر تحديث بتاريخ ديسمبر 2021
+      ol.mttt
+        li جميع الفيديوهات القادمة سوف تكون مُتاحة أولا
+          a.mybtn(href="ddddddd") للأعضاء المُنتسبين للقناة
+        li تم الإنتهاء من المستوى الثالث من الجافاسكريبت
+        li تم الانتهاء من المُستوى الأول من كورس الــ
+          a.mybtn(href="wwwww") Node.js & Express
+        li تم تحديث كورس الـ CSS واضافة
+          a.mybtn(href="sssss") video #10.1
+          |  و   
+          a.mybtn(href="sssss") video #20.1
+      h2.center.mttt: span.underline  التحديث القادم
+      ol.mttt
+        li كورس Node.js & Express
+        li عمل فيديوهات بناءاً علي تعليقات اليوتيوب
+      h2.center.mttt: span.underline ساعدنا عشان نساعدك
+      p.mttt لو شايف اى سلبيات في المُحتوي سواء في الفيديوهات او الدروس هنا في الموقع ياريت تقولي عليها بحيث اظبطها في التحديثات او الفيديوهات القادمة عن طريق صفحتنا على
+        a.mybtn(href="wwwwww") الفيسبوك
+        | او تعليقات اليوتيوب 
+
+
+
+
+    section.card.mttt(style="padding-bottom: 4rem")  
+      h1.box.mtt الذى يُميز Courses 4 Arab
+      ol
+        li محتوى تعليمى يُركز على المهارات المطلوبة فى سوق العمل 
+        li التعلم عن طريق بناء المشاريع الموجودة فى سوق العمل 
+        li  نبدأ كل كورس من البداية 
+
+
+
+
+
+    main#myid.card.mttt(style="padding-bottom: 5rem") 
+      section 
+        h1.box.mtt تعلم البرمجة من الصفر
+        div.myflex
+ 
+          article.divcontainer#re
+            a(href='#')
+              .course-box.react-box
+                .number-box.number-react
+                  span.num  1 
+                h2.react-course.course-title(lang='ar' dir='rtl')
+                  | كورس React كامل
+                p.click(lang='ar' dir='rtl')
+                  | كورس React رايق
+
+                .react-container.last-two-parts
+                  span.mark(dir='ltr' style="font-size: 1.5rem")  import 
+                  h4.react-logo.bottom-course React
+
+          article.divcontainer#js
+            a(href='./javascript.html')
+              .course-box.html-box
+                .number-box.number-html
+                  span.num  1 
+                h2.html-course.course-title(lang='ar' dir='rtl')
+                  | كورس جافاسكريبت كامل
+                p.click(lang='ar' dir='rtl')
+                  | كورس جافاسكريبت رايق
+
+                .html-container.last-two-parts
+                  span.mark(dir='ltr' style="font-size: 1.5rem")  function( )
+                  h4.html-logo.bottom-course JavaScript
+
+
+
+
+    include 0-mywork/comp/footer 
+
+
+
+
+
+
+
+
+

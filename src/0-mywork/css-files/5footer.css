@@ -1,0 +1,16 @@
+.social-links{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+}
+
+footer p {
+  text-align: center;
+  background-color: #3d4a59;
+  color: #fff;
+  border-top-left-radius: 2rem;
+  border-top-right-radius: 2rem;
+  padding: 20px 0;
+}
